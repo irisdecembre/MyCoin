@@ -99,16 +99,3 @@ class BlockChain{
     }
 }
 
-let chanCoin = new BlockChain();
-
-chanCoin.createTransaction(new Transaction("address 1", "address 2", 100));
-chanCoin.createTransaction(new Transaction("address 2", "address 1", 50));
-
-console.log("\nStarting the miner first time...");
-chanCoin.minePendingTransactions("Chan-address");
-console.log("\nBalance of Chan is", chanCoin.getBalanceOfAddress("Chan-address"));
-
-console.log("\nStarting the miner second time...");
-chanCoin.minePendingTransactions("Chan-address");
-console.log("\nBalance of Chan is", chanCoin.getBalanceOfAddress("Chan-address"));
-
