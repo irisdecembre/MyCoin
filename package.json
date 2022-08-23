@@ -1,7 +1,19 @@
 {
-  "dependencies": {
-    "crypto-js": "^4.1.1",
-    "savjeecoin": "^1.0.1",
-    "sha256": "^0.2.0"
-  }
+  "name": "mycoin",
+  "version": "1.0.0",
+  "description": "Personal exercise about Blockchain",
+  "main": "blockchain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irisdecembre/MyCoin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irisdecembre/MyCoin/issues"
+  },
+  "homepage": "https://github.com/irisdecembre/MyCoin#readme"
 }
