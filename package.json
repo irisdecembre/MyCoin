@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/irisdecembre/MyCoin/issues"
   },
-  "homepage": "https://github.com/irisdecembre/MyCoin#readme"
+  "homepage": "https://github.com/irisdecembre/MyCoin#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4"
+  }
 }
